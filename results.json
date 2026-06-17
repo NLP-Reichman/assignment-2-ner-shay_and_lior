@@ -26,11 +26,8 @@
     ]
   },
   "test_NERNet": {
-    "f1": 0.8698392392421048,
-    "f1_wo_o": 0.5857888858863944
+    "f1": 0.8821746268763587,
+    "f1_wo_o": 0.6170532256576703
   },
-  "test_glove": {
-    "f1": 0.9376025144336342,
-    "f1_wo_o": 0.8119196341162935
-  }
+  "test_glove": "FileNotFoundError(2, 'No such file or directory')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_897/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_897/49652930.py\", line 73, in test_glove\n    emb_matrix = get_emb_matrix(emb_file, vocab)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_897/2960323867.py\", line 7, in get_emb_matrix\n    with open(filepath, 'r', encoding='utf-8') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'glove.6B.300d.txt'\n"
 }
